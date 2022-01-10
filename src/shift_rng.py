@@ -96,7 +96,7 @@ def get_seed():
     """
     seed = 0
     while seed < 1000000000:
-        seed = input("Please input random seed int > 1000000: ")
+        seed = int(input("Please input random seed int > 1000000: "))
     return seed
 
 
